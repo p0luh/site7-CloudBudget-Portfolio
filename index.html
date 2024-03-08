@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/favicon.ico">
+    <link rel="stylesheet" href="font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Cloud Budget</title>
+</head>
+<body>
+    <!-- Бургер меню -->
+    <ul id="slide-out" class="sidenav">
+        <li><a href="#"><i class="material-icons">apps</i>Обзор</a></li>
+        <li><a href="#possibilities"><i class="material-icons">assignment_late</i>Особенности</a></li>
+        <li><a href="#technology"><i class="material-icons">memory</i>Технология</a></li>
+        <li><a href="#contact"><i class="material-icons">local_phone</i>Контакты</a></li>
+        <li><a href="#modal1" class="modal-trigger"><i class="material-icons">portrait</i>Войти</a></li>
+        <li><div class="divider"></div></li>
+    </ul>
+        <!-- Бургер меню -->
+        <header class="header__burger">
+            <div class="container">
+                <div class="header__title">
+                    <img src="img/Logo2.png" alt="" class="burger__logo">
+                    <a class="burger sidenav-trigger" data-target="slide-out">
+                        <span class="burger__line"></span>
+                        <span class="burger__line"></span>
+                        <span class="burger__line"></span>
+                    </a>
+                </div>
+            </div>
+        </header>
+        
+    <!-- Навигационное меню -->
+    <header class="header">
+        <div class="container">
+            <div class="header__flex">
+                <div class="header__logo-box">
+                    <img class="header__logo" src="img/Logo.png" alt="Logo">
+                </div>
+                <div class="header__menu">
+                    <ul>
+                        <li><a href="#">Обзор</a></li>
+                        <li><a href="#possibilities">Особенности</a></li>
+                        <li><a href="#technology">Технология</a></li>
+                        <li><a href="#contact">Контакты</a></li>
+                        <li><a href="#modal1" class="modal-trigger">Войти</a></li>
+                    </ul>
+                </div>
+                <div class="header__btn-block">
+                    <a class="header__btn modal-trigger" href="#modal1">Вход</a>
+                </div>
+            </div>
+            <div class="header__title-menu">
+                <h1 class="header__h1">Cloudbudget</h1>
+                <p class="header__p">Управление бюджетом в для всех. <br> Всего 69,95 € в месяц после 7-дневной пробной версии за 4,99 €</p>
+                <a class="header__title-btn" href="#">Попробовать</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Окно регистрации -->
+
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <h4>Вход</h4>
+                <input type="text" placeholder="Email" class="modal__input-area modal__one-input">
+                <input type="text" placeholder="Пароль" class="modal__input-area">
+                <a href="#">Забыли пароль?</a>
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class="modal-close waves-effect waves-red modal-trigger btn-flat">Закрыть</a>
+                <a href="#!" class="modal-open waves-effect waves-red modal-trigger btn-flat">Войти</a>
+        </div>
+    </div>  
+
+    <!-- Приложение для управления бюджетом -->
+    <section class="app">
+        <div class="container">
+            <div class="app__flex">
+                <div class="app__info">
+                    <h3 class="app__h3">Простое приложение для управления бюджетом</h3>
+                    <p class="app__p">Наше приложение создано, чтобы вы могли в реальном времени управлять своим бюджетом и расходами в режиме онлайн с любого устройства. Оно предоставляет подробные отчеты о доходах и расходах с графиками, чтобы вы сразу могли увидеть расходы и бюджет. Читайте ниже, чтобы узнать больше.</p>
+                    <a class="app__link" href="#">Узнать подробнее</a>
+                </div>
+                <div class="app__img-block">
+                    <img class="app__img materialboxed" width="650" src="img/Foto Section.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Возможности -->
+    <section class="possibilities" id="possibilities">
+        <div class="container">
+            <h5 class="possibilities__h5">Возможности</h5>
+            <div class="possibilities__grid">
+                <div class="possibilities__item">
+                    <img class="possibilities__img" src="img/possibilities-1.png" alt="">
+                    <div class="possibilities__block block__1">
+                        <h5 class="possibilities__h5-block">Поддерживает все валюты и карты</h5>
+                        <p class="possibilities__p">Мы поддерживаем все популярные валюты и полностью настраиваем, чтобы добавить</p>
+                        <a class="possibilities__link" href="#">Подробнее</a>
+                    </div>
+                </div>
+                <div class="possibilities__item">
+                    <img class="possibilities__img" src="img/possibilities-2.png" alt="">
+                    <div class="possibilities__block block__2">
+                        <h5 class="possibilities__h5-block">Управляйте своими расходами на ходу</h5>
+                        <p class="possibilities__p">Вы можете получить доступ к своей учетной записи из любой точки мира на любом устройстве</p>
+                        <a class="possibilities__link" href="#">Подробнее</a>
+                    </div>
+                </div>
+                <div class="possibilities__item">
+                    <img class="possibilities__img" src="img/possibilities-3.png" alt="">
+                    <div class="possibilities__block block__3">
+                        <h5 class="possibilities__h5-block">Управление бюджетом осуществляется в облаке</h5>
+                        <p class="possibilities__p">Наше приложение создано для того, чтобы вы могли управлять управлять своим бюджетом.</p>
+                        <a class="possibilities__link" href="#">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Технологии -->
+    <section class="technology" id="technology">
+        <div class="container">
+            <h2 class="technology__h2">Технологии</h2>
+            <div class="technology__grid">
+                <div class="technology__item">
+                    <img class="technology__01" src="img/01.png" alt="">
+                    <img class="technology__img" src="img/technology-1.png" alt="">
+                    <h5 class="technology__h5">Облачное хранение</h5>
+                    <p class="technology__p">Доступ из любой точки мира с любого устройства</p>
+                </div>
+                <div class="technology__item">
+                    <img class="technology__01" src="img/02.png" alt="">
+                    <img class="technology__img" src="img/technology-2.png" alt="">
+                    <h5 class="technology__h5">Безопастность</h5>
+                    <p class="technology__p">Вся  информация хранится на защищенных облачных серверах</p>
+                </div>
+                <div class="technology__item">
+                    <img class="technology__01" src="img/03.png" alt="">
+                    <img class="technology__img" src="img/technology-3.png" alt="">
+                    <h5 class="technology__h5">PDF Отчеты</h5>
+                    <p class="technology__p">Скачивайте ваши отчеты в удобном формате PDF</p>
+                </div>
+                <div class="technology__item">
+                    <img class="technology__01" src="img/04.png" alt="">
+                    <img class="technology__img" src="img/technology-4.png" alt="">
+                    <h5 class="technology__h5">CSV  Отчеты</h5>
+                    <p class="technology__p">Скачивайте ваши отчеты в удобном формате CSV</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Сосредоточьтесь на экономии денег -->
+    <section class="money"> 
+        <div class="container">
+            <div class="money__flex">
+                <div class="money__left">
+                    <h3 class="money__h3">Сосредоточьтесь на экономии денег</h3>
+                    <p class="money__p">Мы помогаем вам отслеживать ваши привычки в расходах, чтобы вы могли легко определить и сократить ненужные расходы. Просто присоединяйтесь сегодня, чтобы начать!</p>
+                    <i class="fa fa-apple" aria-hidden="true"></i>
+                    <i class="fa fa-android" aria-hidden="true"></i>
+                </div>
+                <div class="money__right">
+                    <img class="money__img materialboxed" width="650" src="img/Video_bg.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Напишите нам -->
+    <section class="contact" id="contact"> 
+        <div class="container">
+            <div class="contact__flex">
+                    <div class="contact__left">
+                        <h3 class="contact__h3">Напишите нам</h3>
+                        <p class="contact__p">Остались вопросы или опасения? Просто заполните форму ниже, и наша служба поддержки свяжется с вами в течение 24 часов.</p>
+                    </div>
+                    <div class="contact__right">
+                        <input type="text" placeholder="Имя" name="user_name" class="contact__input-area">
+                        <input type="tel" placeholder="Телефон" name="user_phone" class="contact__input-area">
+                        <a class="contact__btn" href="#">Отправить</a>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Подвал -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer">
+                <h5 class="footer__h5">Адрес</h5>
+                <p class="footer__p">Pipang Ltd, Griva Digeni, 81-83 Jacovides Tower, 1st Floor 1090 Picosia USA</p>
+                <p class="footer__p-footer">Copyright 2021 CloudBudget</p>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
